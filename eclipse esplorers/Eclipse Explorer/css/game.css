@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* background: url("../Game/bg.jpg"); */
+    /* background-size: cover; */
+}
+
+.game-page {
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    margin-top: 5rem;
+}
+
+.div {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    top: 0;
+    margin-top:5rem;
+}
+
+.app {
+    /* background-color: rgb(196, 192, 192); */
+    background-color: rgb(241, 239, 239, 0.2);
+    width: 600px;
+    margin: 100px auto;
+    text-align: center;
+    padding: 1px;
+    border-radius: 20px;
+}
+
+h2 {
+    margin-top: 20px;
+    color: white;
+}
+
+h1 {
+    margin-bottom: 1.3rem;
+    font-size: 2.5rem;
+    color: white;
+    font-weight: 400;
+    font-family: 'Croissant One', cursive;}
+
+img {
+    width: 400px;
+    margin-top: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+
+.btn {
+    height: 3rem;
+    margin-bottom: 15px;
+    width: 40%;
+    background-color: rgb(218, 213, 213);
+    border-radius: none;
+    outline: none;
+    border: 1px solid black;
+    font-weight: 500;
+    font-size: 1.4rem;
+    margin-left: 20px;
+}
+
+.btn:hover {
+    background-color: #7D7C7C;
+    color: black;
+}
+
+#next-btn {
+    height: 3rem;
+    width: 70%;
+    margin-bottom: 20px;
+    margin: 10px auto 25px auto;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    font-weight: 900;
+}
+
+.correct {
+    background-color: rgba(151, 244, 151, 0.7);
+    color: black;
+}
+
+.incorrect {
+    background-color: rgb(199, 112, 112);
+    color: black;
+}

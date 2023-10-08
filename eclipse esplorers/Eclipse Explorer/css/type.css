@@ -1,0 +1,63 @@
+
+*{
+    background-color: black;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.type{
+    text-align: center;
+    background-color: rgb(84, 64, 43);
+    padding: 5px;
+    font-size: 6rem;
+}
+.header1{
+    margin-top: 10px;
+    display: inline;
+    /* background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Hubble_ultra_deep_field.jpg/1200px-Hubble_ultra_deep_field.jpg");
+    background-size: cover; */
+}
+.content{
+    font-size: 30px;
+    margin-top: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.img1{
+    margin-top: 50px;
+    width: 100%;
+    height: 100%;
+}
+
+.card{
+    width: 45%;
+    height: 52rem;
+    margin-right: 2rem;
+    margin-top: 30px;
+}
+.crd{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 5rem;
+}
+
+.card:horizontal {
+    transform: translateX(5px);
+}
+
+.card-body>h5 {
+    font-size: 3rem;
+}
+
+.card-body>p {
+    font-size: 1.4rem;
+}
+
+.boot2{
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content:space-around ;
+}

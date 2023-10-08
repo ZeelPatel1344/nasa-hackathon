@@ -1,0 +1,99 @@
+*{
+    color: white;
+}
+body{
+    background-image: url('https://st.depositphotos.com/1000820/2110/i/450/depositphotos_21108671-stock-photo-real-night-sky-with-stars.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#Circumtaces-content{
+    width: 85%;
+    margin: auto;
+    padding-top: 80px;
+    background-image: url("https://st.depositphotos.com/1000820/2110/i/450/depositphotos_21108671-stock-photo-real-night-sky-with-stars.jpg");
+
+    /* For testing purpose */
+    /* border: 2px solid whitesmoke; */
+}
+
+
+
+
+/* Classes */
+.circumtaces-Imges{
+    width: 50%;
+    height: 30%;
+}
+
+.Questions{
+    text-shadow: 1px 1px 2px white;
+
+    /* for testing purpose */
+    /* border: 2px solid green; */
+}
+
+.main-parent{
+    display: flex;
+
+    /* For testing purpose */
+    /* border: 2px solid red; */
+}
+.content-class{
+    width: 55%;
+    height: auto;
+    padding: 5%;
+    font-size: 18px;
+    word-spacing: 2px;
+    font-family: 'Overpass', sans-serif;
+
+    /* For testing purpose */
+    /* border: 2px solid yellow; */
+}
+
+.img-parent-class{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+
+    /* For testing purpose */
+    /* border: 2px solid blue; */
+}
+
+.img-class{
+    width: 80%;
+    height: 80%;
+    border-radius: 3%;
+
+    /* For testing purpose */
+    /* border: 2px solid blueviolet; */
+}
+
+/* special Effect */
+.content-class p:hover{
+    color: rgb(245, 245, 169);
+    transform: scale(1.05);
+    transition: 1s;
+}
+
+.img-class:hover{
+    border: 2px solid white;
+    border-radius: 2%;
+    transform: scale(1.15);
+    transition: 1s;
+}
+
+/* For responsive  */
+
+@media(max-width:750px) {
+    .main-parent{
+        display: inline;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .content-class{
+        justify-content: center;
+        align-items: center;
+    }
+}
